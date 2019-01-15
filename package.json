@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "build": "babel src -d lib",
+    "build:wrap": "NODE_ENV=wrap babel src -d lib/wrap",
+    "build:remove": "babel src -d lib/remove",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
